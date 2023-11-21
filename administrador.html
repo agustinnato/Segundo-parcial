@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Profesionales</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Administración de Profesionales</h1>
+    <h2>Centro terapeutico Delirio</h2>
+    <p><b>Agrega profesionales a la lista completando los campos</b></p>
+    <form id="formularioProfesional">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="especialidad">Especialidad:</label>
+        <input type="text" id="especialidad" name="especialidad" required>
+
+        <button type="button" onclick="agregarProfesional()">Agregar Profesional</button>
+    </form>
+    <p><b>Hace click por encima de los profesionales para darlos de baja</b></p>
+    <div id="profesionales-lista"></div>
+
+    <script src="administrador.js"></script>
+</body>
+</html>

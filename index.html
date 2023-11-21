@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Delirio</title>
+</head>
+<body class="primerpag">
+<h1 class="titulo">Centro Terapeutico Delirio</h1>
+<h2>Profesionales con experiencia de más de 20 años de trabajo</h2>
+
+<img class="primer" src="Centroterapeutico.jpg" alt="Imagen Descriptiva">
+  <label for="tipoLogin">Selecciona el tipo de Usuario:</label>
+  <select id="tipoLogin">
+    <option value="paciente">Paciente</option>
+    <option value="profesional">Profesional</option>
+    <option value="administrador">Administrador</option>
+  </select>
+  <button onclick="redirigir()">Ingresar</button>
+
+  <script>
+    function redirigir() {
+      var tipoLogin = document.getElementById('tipoLogin').value.toLowerCase();
+
+      switch (tipoLogin) {
+        case 'paciente':
+          window.location.href = 'Sesionpaciente.html';
+          break;
+        case 'profesional':
+          window.location.href = 'sesionprofesional.html';
+          break;
+        case 'administrador':
+          window.location.href = 'sesionadministrador.html';
+          break;
+        default:
+          alert('Tipo de login no válido. Por favor, selecciona "Paciente", "Profesional" o "Administrador".');
+      }
+    }
+  </script>
+<button onclick="toggleTheme()">Cambiar Modo</button>
+</body>
+<script src="manejador.js"></script>
+</html>

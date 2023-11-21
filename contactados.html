@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Delirio Centro Terapéutico</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body class="Contactados">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contactados.html">Contactados</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+  <header>
+    <h1>Delirio Centro Terapéutico</h1>
+  </header>
+
+  <section class="profesionales">
+    <h2>Profesionales Contactados</h2>
+    <ul>
+      <li>Dr. Pedro Martín (Especialista en Niños)</li>
+    </ul>
+  </section>
+  <section class="foto-pedro">
+    <h2>Foto de Dr. Pedro Martín</h2>
+    <img src="foto-psicologo.jpg" alt="Dr. Pedro Martín">
+  </section>
+  <section class="chat">
+    <h2>Chat con Doctores</h2>
+    <div>
+      
+      <div class="mensaje doctor">Dr. Pedro Martín: ¡Hola! ¿En qué puedo ayudarte hoy?</div>
+      <div class="mensaje usuario">Tú: Necesito información sobre terapia para niños.</div>
+      <div class="mensaje doctor">Dr. Pedro Martín: Claro, puedo proporcionarte esa información. ¿Tienes alguna pregunta específica?</div>
+    </div>
+    <div class="input-container">
+      <input type="text" id="mensaje" placeholder="Escribe tu mensaje...">
+      <button onclick="enviarMensaje()">Enviar</button>
+    </div>
+
+  </section>
+  <button onclick="toggleTheme()">Cambiar Modo</button>
+</body>
+<script src="manejador.js"></script>
+</html>

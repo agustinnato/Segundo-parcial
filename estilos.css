@@ -1,0 +1,185 @@
+.home
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+ 
+  .navbar-toggler-icon {
+    color: #000; 
+  }
+  
+ 
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+  .jumbotron {
+    text-align: center;
+    padding: 20px;
+  }
+h1 { font-size: 2.5em;
+    margin-bottom: 10px;
+
+}
+.contactados 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  .profesionales {
+    margin: 20px;
+  }
+  
+  .contactados  .chat {
+    margin: 20px;
+  }
+  
+  .chat-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .mensaje {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .doctor {
+    background-color: #d4edda;
+  }
+  
+  .usuario {
+    background-color: #cce5ff;
+  }
+  
+  .input-container {
+    margin-top: 10px;
+  }
+  
+  .input {
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  .button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .foto-pedro {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .foto-pedro img {
+    max-width: 100%; 
+    border-radius: 8px; 
+  }
+  .primerpag
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    color: #353434;
+  }
+  
+  h2 {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  img.primer {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+  }
+  .centrado
+  {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+  }
+  
+@media screen and (max-width: 768px) {
+   
+    .home {
+        margin: 10px;
+    }
+
+    .primerpag {
+        margin: 10px;
+    }
+
+    .centrado {
+        margin: 10px;
+    }
+}
+
+.home {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  
+  .modo-oscuro {
+    background-color: #333333;
+    color: #ffffff;
+    }
+    
+  .modo-oscuro .titulo{
+    color: #ffffff;
+  }
+  .modo-oscuro .jumbotron{
+    color: #000000;
+  }
+
+
