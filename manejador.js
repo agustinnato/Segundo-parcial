@@ -81,10 +81,10 @@ function toggleTheme() {
   var editingProfile = false;
 
   function editarPerfil() {
-      // Cambia el estado de la edición del perfil
+      
       editingProfile = !editingProfile;
   
-      // Obtiene los elementos del DOM
+      
       var nombreSpan = document.getElementById("nombre");
       var especialidadSpan = document.getElementById("especialidad");
       var informacionSpan = document.getElementById("informacion");
@@ -92,7 +92,7 @@ function toggleTheme() {
       var especialidadInput = document.getElementById("especialidadInput");
       var informacionInput = document.getElementById("informacionInput");
   
-      // Si estamos editando el perfil, muestra los campos de entrada y oculta los spans
+      
       if (editingProfile) {
           nombreInput.value = nombreSpan.innerText;
           especialidadInput.value = especialidadSpan.innerText;
@@ -106,7 +106,7 @@ function toggleTheme() {
           especialidadInput.style.display = "inline";
           informacionInput.style.display = "inline";
       } else {
-          // Si no estamos editando el perfil, muestra los spans y oculta los campos de entrada
+          
           nombreSpan.innerText = nombreInput.value;
           especialidadSpan.innerText = especialidadInput.value;
           informacionSpan.innerText = informacionInput.value;
